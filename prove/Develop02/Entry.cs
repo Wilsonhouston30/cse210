@@ -7,7 +7,7 @@ public class Entry
     public string _date;
 
 
-
+    // intialize the Entry class 
     public Entry (string prompt, string response, string date)
     {
         this._propmt = prompt;
