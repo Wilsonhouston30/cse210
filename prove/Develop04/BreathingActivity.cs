@@ -38,6 +38,8 @@ public class BreathingActivity : Activity
             Console.Clear();
         }
 
+        EndingMessage();
+
     }
 
 }

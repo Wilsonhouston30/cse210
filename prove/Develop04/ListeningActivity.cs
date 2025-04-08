@@ -10,7 +10,19 @@ public class ListeningActivity : Activity
 
     public List <string> _promts = new List<string> 
     {
-        "Name the people in your life you appreciate", "What items do you value?", "During a zombie appoculups who are you bring in?" 
+        "Name the people in your life you appreciate", 
+        "What items do you value?", 
+        "During a zombie appoculups who are you bring in?",
+        "Mr Beast Gave you $1,000,000,000, who are you calling to share the news?",
+        "You have 1 minute to grab any item at Walmart and take it home for free, which items are you adding to you cart?", 
+        "Name everybody that you know",
+        "Name all the snacks that you've eaten in your lifetime",
+        "Name all the items inside your pantry and refridgerator",
+        "Who are the people you are inviting to your private yatch",
+        "Who are the people that you made can rely on",
+        "What teachers/professors made an impact on your education",
+        "What are you grateful for?",     
+
     };
 
     private Random random = new Random();
@@ -44,6 +56,8 @@ public class ListeningActivity : Activity
 
         }
         Console.WriteLine($" Times Up! You reflected on {inputCount} promts");
+
+        EndingMessage();
 
 
     }

@@ -55,4 +55,14 @@ public class Activity
         Console.WriteLine(GetInstructions2());
         Console.WriteLine();
     }
+
+    public void EndingMessage()
+{
+    Console.WriteLine();
+    Console.WriteLine($"You completed {_activityName}");
+    Console.WriteLine($"You spent {_activityTimer} seconds on this activity");
+    Console.WriteLine("Press any key to continue...");
+    Console.ReadKey();
+    Console.Clear();
+}
 }
